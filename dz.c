@@ -15,7 +15,7 @@ int potschot_el(int n) {
 			last_zero = i;
 		}
 	}
-	if (first_zero == -1 || first_zero == int last_zero = -1)
+	if (first_zero == -1 || first_zero == last_zero = -1)
 		return 0;
 	return last_zero - first_zero - 1;
 }
